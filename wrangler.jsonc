@@ -17,5 +17,12 @@
     "crons": [
       "* * * * *"
     ]
-  }
+  },
+  "routes": [
+    {
+      "pattern": "user-risk-scores.worker.jdores.xyz",
+      "custom_domain": true
+    }
+  ],
+  "workers_dev": false
 }
